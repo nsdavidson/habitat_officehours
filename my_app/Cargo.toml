@@ -1,0 +1,9 @@
+[package]
+name = "my_app"
+version = "0.1.0"
+authors = ["Nolan Davidson <ndavidson@chef.io>"]
+
+[dependencies]
+nickel = "0.9"
+serde = "0.8"
+serde_json = "0.8"

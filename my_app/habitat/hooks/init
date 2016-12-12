@@ -1,0 +1,2 @@
+#!/bin/sh
+ln -sf {{pkg.path}}/my_app {{pkg.svc_var_path}}/

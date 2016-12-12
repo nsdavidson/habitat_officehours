@@ -1,0 +1,6 @@
+#!/bin/sh
+
+exec 2>&1
+
+cd /hab/svc/my_app/var
+exec ./my_app

@@ -8,7 +8,10 @@
   * Habitat packages can run anywhere that the supervisor can run.  Bare metal, VM, cloud, container, etc
   * Minimal OS requirements
   * You can run different environments on different platforms (dev on Docker, stage on Kubernetes, prod on EC2)
-- 
+- Rub a little cloud on your legacy apps
+  * Add things like service discovery, easy configuration updates, and clustering/update strategies without doing a "cloud-native" rewrite.
+- Standardize application management
+  * Using Habitat's built in management features, you can deploy/monitor/update/configure all your apps in a standard way.
 
 ### What are the pieces?
 - Primary components
@@ -38,7 +41,7 @@
 - Roles of the supervisor:
   * Start and monitor the service in the specified package
   * Exchange information with other supervisors and act upon changes.
-  * Expose an HTTP API for diagnostic, metadata and stats.
+  * Expose an HTTP API for diagnostic info, metadata and stats.
 - Currently the supervisor requires a modern 64 bit Linux kernel to run.  Windows support is in the works.
 
 #### Studio

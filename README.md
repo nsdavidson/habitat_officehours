@@ -267,3 +267,11 @@ my_app(SV): Starting
 my_app(O): Listening on http://0.0.0.0:8080
 my_app(O): Ctrl-C to shutdown server
 ```
+
+### Other resources
+- Habitat website - https://habitat.sh
+- Habitat docs - https://www.habitat.sh/docs/
+- More in-depth example with multiple tiers - https://github.com/nsdavidson/rust-hello-world
+- Webinars - https://www.chef.io/webinars/
+- HabiSlack - http://slack.habitat.sh/
+- HabiForums/mailing list - https://forums.habitat.sh/
